@@ -7,7 +7,7 @@ class Button extends React.Component {
     // static contextType = LanguageContext; // added property to class so now we can use this.context property
 
     renderSubmit (language) {
-        return ( language ) === 'english' ? 'Submit' : 'Подати'
+        return ( language ) === 'ukrainian' ? 'Подати' : 'Submit'
     }
 
     render() {
